@@ -1,0 +1,9 @@
+#version 330 core
+
+in vec3 vetexcolor;
+out vec4 color;
+//uniform vec4 ourColor; // 在OpenGL程序代码中设定这个变量
+
+void main(){
+	color = vec4(vetexcolor, 1.0f);
+}
